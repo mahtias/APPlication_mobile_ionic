@@ -1,0 +1,7 @@
+{
+  "name": "DashADACIJAVA",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

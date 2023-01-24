@@ -1,0 +1,14 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title>Liste</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card *ngFor="let user of users" mode="ios">
+    <ion-card-content>
+      <p>Username : {{user?.username}}</p>
+      <p>Email : {{user?.email}}</p>
+    </ion-card-content>
+  </ion-card>
+</ion-content>
